@@ -2,6 +2,9 @@ import {BrowserRouter, Route, Routes} from "react-router";
 import Header from "./components/header";
 import JoinPage from "./pages/JoinPAge";
 import LoginPage from "./pages/LoginPage";
+import CountNotState from "./_test/CountNotState";
+import CountState from "./_test/CountState";
+import MainApp from "./_test/MainApp";
 
 /**
  *  1. JSX란 
@@ -31,6 +34,8 @@ function App() {
     <BrowserRouter>
     {/* Header 컴포넌트 사용 */}
       <Header/>
+      {"임시코드"}
+      <MainApp/>
 
       {/* 
           JSX 인라인 스타일 문법
