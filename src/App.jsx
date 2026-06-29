@@ -34,8 +34,6 @@ function App() {
     <BrowserRouter>
     {/* Header 컴포넌트 사용 */}
       <Header/>
-      {"임시코드"}
-      <MainApp/>
 
       {/* 
           JSX 인라인 스타일 문법
